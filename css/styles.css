@@ -1,0 +1,27 @@
+.screen {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: top;
+    background-size: contain;
+    background-color: rgb(224 232 255);
+}
+
+.container{
+    width: 550px;
+    height: 760px;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1em #acacac;
+    text-align: center;
+}
+
+.hero {
+    width: 100%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
