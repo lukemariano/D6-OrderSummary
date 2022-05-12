@@ -16,12 +16,13 @@ body{
 }
 
 .container{
-    width: 550px;
+    width: 510px;
     height: 760px;
     border-radius: 3%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 1em #acacac;
     text-align: center;
+    overflow: hidden;
 }
 
 .hero {
@@ -105,14 +106,26 @@ a{
     background-color: rgb(30 31 205);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 99px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    font-weight: 700;
+    margin: 44px 2px;
     cursor: pointer;
+    border-radius: 10px;
+    
+  
   }
+
+  .texto-cancel{
+
+    font-weight: 900;
+    color:rgb(130, 134, 153);
+    font-size: 14px;
+  }
+
 
 
 
